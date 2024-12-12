@@ -1,0 +1,80 @@
+body {
+  background-color: antiquewhite;
+}
+
+img {
+  height: 50px;
+  width: 100px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show-result {
+  display: flex;
+  align-items: center;
+}
+
+.final-result {
+  display: flex;
+  flex-direction: row;
+}
+.final-result .finalResultPlayer {
+  margin-right: 30px;
+}
+
+.show-result {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#resultText {
+  text-align: center;
+}
+
+.show-result img {
+  height: 170px;
+  width: 170px;
+}
+
+/* part of the chosing */
+.choices img {
+  height: 200px;
+  width: 200px;
+  transition: transform 0.3s ease-in-out;
+}
+.choices button:hover img {
+  transform: translateX(2px) translateY(-2px);
+}
+
+.choices button {
+  border-radius: 10px;
+  transition: border-color 0.3s ease-in-out;
+}
+.choices button:hover {
+  border: 3px solid green;
+}
+
+/* efecto for whin lose and tie  */
+.lose {
+  font-size: 50px;
+  color: red;
+  margin: auto;
+}
+.win {
+  color: gold;
+  font-size: 50px;
+  margin: auto;
+}
+.tie {
+  font-size: 50px;
+  margin: auto;
+  color: blueviolet;
+}

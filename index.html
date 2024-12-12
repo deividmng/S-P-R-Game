@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script defer src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+    <title>Scissors Paper Rock</title>
+</head>
+<body>
+    
+   
+
+    <section class="container">
+        <h1>Scissors Paper Rock</h1>
+        <p class="f-p">First to score 3 points wins</p>
+        <div class="final-result">
+            <h2 class="finalResultPlayer"> Player:0</h2>
+            <h2 class="finalResultComputer"> Computer:0</h2>
+        </div>
+        <main class="Game">
+            
+            <p id="resultText"></p>
+            <div class="show-result">
+                
+                <!-- display the player -->
+                <div class="player">
+                    <img src="./src/img/user-33638_1280.png"
+                    alt="img-player"
+                    id="player-img">
+                    <p id="player-choice"></p>
+                    <!--here will display de score of the player-->
+                    <p  id="player-score">Player:0 
+                </div>
+                  <!-- display the Computer -->
+                <div class="computer">
+                    <img src="./src/img/android-159109_1280.png"
+                    alt="img-player"
+                    id="player-img">
+                    <p id="computer-choice"></p>
+                    <!--here will display de score of the computer-->
+                    <p id="computer-score">computer:0 </p>
+                </div>
+            </div>
+                <!--Here it where the choices it gonna go -->
+            <div class="choices">
+                <button id="paper" value="paperChoice">
+                    <img src="./src/img/hand-paper.png" alt="paper">
+                </button>
+
+                <button id="rock" value="rockChoice">
+                    <img src="./src/img/rock.png" alt="paper">
+                </button>
+
+                <button id="scissors" value="scissorsChoice">
+                    <img src="./src/img/scissores.png" alt="paper">
+                </button>
+            </div>
+
+        </main>
+
+
+    </section>
+    
+</body>
+</html>
